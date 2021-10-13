@@ -1,0 +1,51 @@
+.header{
+    background-color: bisque;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    background-image: url('bg.jpg');
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: brown;
+}
+p{
+    font-size: 20px;
+}
+
+.subheader{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: brown;
+    padding: 10px;
+    color: rgb(255, 246, 249);
+    font-weight: bold;
+}
+html{
+    margin: 0;
+    padding: 0px;
+}
+.products{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.items{
+    margin: 30px;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-between;
+}
